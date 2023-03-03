@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E2EEFE;
+  font-family: adobe-garamond-pro, "Cormorant Garamond", serif;
+  font-feature-settings: "lnum" 1;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+    margin: 1em 0;
+    line-height: 150%;
+  }
+
+.note {
+    background: #E2EEFE;
+    padding: 10px 55px 105px;
+    position: relative;
+  }
+  
+  .note .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    -webkit-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
+    padding: 50px 122px 50px;
+    position: relative;
+    z-index: 5;
+    font-size: 18px;
+  }
+  .note .container:after {
+    content:"";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: white;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    z-index: -1 ;
+  }

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #E2EEFE;
+}
+
+a.in-link {
+  color: #1a1a1a;
+  letter-spacing: 0.14em;
+  font-size: 16px;
+  border: 1px solid #999;
+  padding: 11px 30px;
+  min-width: 150px;
+  display: inline-block;
+  margin: 40px 50px 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.4s;
+  transition-timing-function: ease-out;
+  line-height: 100%;
+}
+
+a.in-link:hover {
+  background: #999;
+  color: #fff;
+  border: 1px solid #999;
+
+}
+
+p {
+  margin: 1em 0;
+  line-height: 150%;
+}
+
+body {
+  font-family: adobe-garamond-pro, "Cormorant Garamond", serif;
+  font-feature-settings: "lnum" 1;
+  padding: 0;
+  margin: 0;
+}
+
+.main-bg { 
+  position: relative;
+  z-index: 1;
+}
+
+.intro-section {
+  text-align: center;
+  padding: 60px 0px 30px;
+  position: relative;
+  z-index: 5;
+}
+
+.intro-section .container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 35px;
+  color: #3c3a3a;
+}
+.intro-section h1 {
+  font-size: 50px;
+  font-weight: normal;
+  font-family: adobe-garamond-pro;
+  line-height: 150%;
+  font-weight: normal;
+}
+
+.intro-section .container p {
+  font-size: 20px;
+}
+
+.note {
+    background: #E2EEFE;
+    padding: 10px 55px 105px;
+    position: relative;
+  }
+  
+  .note .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    -webkit-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.15);
+    padding: 70px 122px 90px;
+    position: relative;
+    z-index: 5;
+    font-size: 18px;
+  }
+  .note .container:after {
+    content:"";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: white;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    z-index: -1 ;
+  }
